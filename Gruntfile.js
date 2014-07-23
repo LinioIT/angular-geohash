@@ -7,8 +7,14 @@ module.exports = function (grunt) {
                     'dist/angular-geohash.min.js': ['src/angular-geohash.js']
                 }
             }
+        },
+        karma: {
+            unit: {
+                configFile: 'karma.conf.js'
+            }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.registerTask('default', ['uglify:js']);
+    grunt.loadNpmTasks('grunt-karma');
+    grunt.registerTask('default', ['karma', 'uglify:js']);
 };

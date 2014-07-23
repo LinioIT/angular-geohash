@@ -11,6 +11,10 @@
     "angularjs",
     "geohash"
   ],
+  "devDependencies": {
+    "angular": "~1.2.20",
+    "angular-mocks": "~1.2.20"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
