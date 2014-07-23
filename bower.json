@@ -1,0 +1,22 @@
+{
+  "name": "angular-geohash",
+  "version": "0.1.0",
+  "homepage": "https://github.com/raphaelluchini/angular-geohash",
+  "authors": [
+    "@raphaelluchini"
+  ],
+  "description": "geohash for angularjs",
+  "main": "dist/angular-geohash.min.js",
+  "keywords": [
+    "angularjs",
+    "geohash"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
