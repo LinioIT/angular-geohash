@@ -1,35 +1,30 @@
 {
-    "author": "Sun Ning <classicning@gmail.com> (http://sunng.info/)",
+    "author": "Raphael Luchini <laster_rpahael@hotmail.com> (@raphaelluchini)",
     "contributors": [
         "Arjun Mehta <arjunmeht@gmail.com> (http://www.arjunmehta.net/)",
         "Seth Miller <seth@four43.com> (http://www.four43.com)",
         "Zhu Zhe <zhuzhe1983@gmail.com>"
     ],
-    "name": "ngeohash",
-    "description": "geohash library for nodejs",
+    "name": "angular-geohash",
+    "description": "geohash library for angularjs",
     "keywords": [
+        "angularjs",
         "geohash",
         "uint64",
         "geohasher",
         "geocode",
         "geolocation"
     ],
-    "version": "0.6.0",
+    "version": "0.1.0",
     "repository": {
-        "url": "https://github.com/sunng87/node-geohash"
-    },
-    "engines": {
-        "node": ">=v0.2.0"
+        "url": "https://github.com/raphaelluchini/angular-geohash"
     },
     "dependencies": {},
-    "devDependencies": {
-        "assert": ">=1.0",
-        "nodeunit": ">=0.8"
+    "devDependencies":{
+        "grunt": "~0.4.5",
+        "grunt-cli": "~0.1.13",
+        "grunt-contrib-uglify":"~0.5.0"
     },
-    "scripts": {
-        "test": "nodeunit tests/test.js"
-    },
-    "main": "./main",
     "license": "MIT",
     "readmeFilename": "README.md"
 }

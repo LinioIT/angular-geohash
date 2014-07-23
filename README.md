@@ -1,28 +1,23 @@
-node-geohash
+angular-geohash
 ============
 
-Geohash library for nodejs.
+Geohash library for angularjs based on [node-geohash](https://github.com/sunng87/node-geohash).
 
-[![Build Status](https://travis-ci.org/sunng87/node-geohash.svg)](https://travis-ci.org/sunng87/node-geohash)
-[![NPM version](https://badge.fury.io/js/ngeohash.svg)](http://badge.fury.io/js/ngeohash)
-![Dependencies](https://david-dm.org/sunng87/node-geohash.png) 
 
 ## Install
 
 ```bash
-npm install ngeohash
+bower install angular-geohash
 ```
 
 
 ## Usage
 
 ```javascript
-var geohash = require('ngeohash');
-console.log(geohash.encode(37.8324, 112.5584));
-// prints ww8p1r4t8
-var latlon = geohash.decode('ww8p1r4t8');
-console.log(latlon.latitude);
-console.log(latlon.longitude);
+angular.module('MyApp', ["angular-geohash"]).controller("MyController", ['geohash', function(geohash){
+    geohash.encode(lat,lng);
+    ...
+}]);
 ```
 
 
@@ -102,7 +97,7 @@ Check [Wikipedia](http://en.wikipedia.org/wiki/Geohash "Wiki page for geohash") 
 
 
 
-## Contributors
+## Core Contributors
 
 * [Seth Miller](https://github.com/four43)
 * [Zhu Zhe](https://github.com/zhuzhe1983)
@@ -112,4 +107,4 @@ Check [Wikipedia](http://en.wikipedia.org/wiki/Geohash "Wiki page for geohash") 
 
 ## License
 
-node-geohash is open sourced under MIT License, of course.
+angular-geohash is open sourced under MIT License, of course.
