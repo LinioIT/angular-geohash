@@ -95,7 +95,8 @@ Find all 8 neighbors `[n, ne, e, se, s, sw, w, nw]` of a geohash integer. This m
 
 Check [Wikipedia](http://en.wikipedia.org/wiki/Geohash "Wiki page for geohash") for more information.
 
-
+## Author
+* [raphaelluchini](https://twitter.com/raphaelluchini)
 
 ## Core Contributors
 
