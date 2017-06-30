@@ -15,9 +15,9 @@
     "geocode",
     "geolocation"
   ],
-  "version": "0.2.0",
+  "version": "0.3.0",
   "repository": {
-    "url": "https://github.com/raphaelluchini/angular-geohash"
+    "url": "https://github.com/LinioIT/angular-geohash"
   },
   "dependencies": {},
   "devDependencies": {
